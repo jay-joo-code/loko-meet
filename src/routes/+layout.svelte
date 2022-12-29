@@ -1,7 +1,7 @@
 <script>
-	import Auth from '$lib/components/glue/Auth.svelte';
-	import MobileDrawerContent from '$lib/components/glue/MobileDrawerContent.svelte';
-	import { APP_NAME, PUBLIC_NAVS } from '$lib/config';
+	import Auth from '$lib/glue/components/Auth.svelte';
+	import MobileDrawerContent from '$lib/glue/components/MobileDrawerContent.svelte';
+	import { APP_NAME, PUBLIC_NAVS } from '$lib/glue/config';
 	import '../app.css';
 </script>
 

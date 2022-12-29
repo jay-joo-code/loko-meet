@@ -1,13 +1,9 @@
 <script>
-	import Aside from '$lib/components/glue/Aside.svelte';
-	import Main from '$lib/components/glue/Main.svelte';
-	import PageContainer from '$lib/components/glue/PageContainer.svelte';
-	import ListingList from '$lib/components/listing/ListingList.svelte';
+	import PageContainer from '$lib/glue/components/PageContainer.svelte';
 </script>
 
 <PageContainer title="Home" layout="aside-main">
-	<Aside />
-	<Main>
-		<ListingList />
-	</Main>
+	<a href="/create">
+		<button class="btn-primary btn">Create event</button>
+	</a>
 </PageContainer>

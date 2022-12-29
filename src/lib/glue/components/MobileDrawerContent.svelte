@@ -1,5 +1,5 @@
 <script>
-	import { APP_NAME, PUBLIC_NAVS } from '$lib/config';
+	import { APP_NAME, PUBLIC_NAVS } from '$lib/glue/config';
 </script>
 
 <div class="drawer-side">

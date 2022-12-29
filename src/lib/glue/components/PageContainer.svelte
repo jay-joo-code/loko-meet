@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { APP_NAME } from '$lib/config';
+	import { APP_NAME } from '$lib/glue/config';
 
 	export let title = '';
 	export let layout: 'mobile-only' | 'aside-main' = 'mobile-only';
