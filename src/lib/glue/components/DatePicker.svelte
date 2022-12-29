@@ -34,7 +34,7 @@
 	:root {
 		--date-picker-background: hsl(var(--b1));
 		--date-picker-foreground: hsl(var(--bc));
-		--date-picker-selected-color: hsl(var(--bc));
+		--date-picker-selected-color: hsl(var(--nc));
 		--date-picker-selected-background: hsl(var(--p));
 		--date-picker-highlight-border: hsl(var(--p));
 		--date-picker-highlight-shadow: hsl(var(--p));
